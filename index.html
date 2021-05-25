@@ -6,9 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="app.js" async defer></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Odin | Google Homepage</title>
   </head>
   <body>
-    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <header>
+      <nav>
+        <ul>
+          <li>About</li>
+          <li class="right-anchor">Store</li>
+          <li>Gmail</li>
+          <li>Images</li>
+          <span class="material-icons">apps</span>
+          <button>Sign In</button>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img src="./images/logo.png" alt="google logo" />
+      <form>
+        <span class="material-icons">search</span>
+        <input type="text" />
+        <span class="material-icons">mic</span>
+      </form>
+      <div class="search-buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li>Advertising</li>
+        <li>Business</li>
+        <li class="right-anchor">How Search Works</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Settings</li>
+      </ul>
+    </footer>
   </body>
 </html>
